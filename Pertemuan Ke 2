@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <!--
+    Nama : Muhammad Ilman Bukhari
+    NIM : 252520073
+    kelas : Teknologi Informasi 
+    B-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>Profil Mahasiswa</title>
+        <style>
+            .profil {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            }
+            .profil img {
+            border-radius : 15px;
+            }
+            .text {
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>PROFIL MAHASISWA</h1>
+        <p>Halo saya Muhammad Ilman Bukhari seorang mahasiswa Universitas Muhammadiyah Purworejo</p>
+        <div class="profil">
+        <img src="img/Foto Pribadi.jpeg" alt="Foto Profil" widht="100" height="200">
+        <div class="text">
+            <h2>Muhammad Ilman Bukhari</h2>
+            <h3>Daftar Hobi</h3>
+        <ul>
+            <li>Jogging</li>
+            <li>Badminton</li>
+            <li>Gamers</li>
+        </ul>
+        </div>
+    </div>
+        <a href="https://umpwr.ac.id/"> Kunjungi Website</a>
 
+        <table border="1">
+            <tr>
+                <th>No</th>
+                <th>Mata kuliah</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td align="left">Pendidikan Pancasila</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td align="left">Sistem Operasi</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td align="left">Pemrograman Web</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td align="left">Struktur Data</td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td align="left">Al Islam dan Kemuhammadiyahan</td>
+            </tr>
+        </table>
+        <form>
+            <label>Nama:</label>
+            <input type="text" name="nama">
+            <label>Gmail:</label>
+            <input type="text" name="Gmail">
+            <label>Jenis Kelamin:</label>
+            <input type="text" name="Jenis Kelamin">
+            <button type="Submit">Kirim</button>
+        </form>
+    </body>
+</html>
